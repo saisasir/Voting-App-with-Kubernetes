@@ -1,6 +1,4 @@
-
-
-# Cloud-Native Web Voting Application with Kubernetes
+# Cloud-Optimized Voting Platform with Kubernetes
 
 This cloud-native web application is built using a mix of technologies. It's designed to be accessible to users via the internet, allowing them to vote for their preferred programming language out of six choices: C#, Python, JavaScript, Go, Java, and NodeJS.
 
@@ -48,16 +46,6 @@ By working through this project, you'll develop a deeper understanding of cloud-
 
 
 ### **************************Steps to Deploy**************************
-
-Youtube Video to refer:
-
-[![Video Tutorial](https://img.youtube.com/vi/pTmIoKUeU-A/0.jpg)](https://youtu.be/pTmIoKUeU-A)
-
-Susbcribe:
-
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
-
 
 Create EKS cluster with NodeGroup (2 nodes of t2.medium instance type)
 Create EC2 Instance t2.micro (Optional)
@@ -281,3 +269,5 @@ kubectl exec -it mongo-0 -- mongo langdb --eval "db.languages.find().pretty()"
 ## **Summary**
 
 In this Project, you learnt how to deploy a cloud native application into EKS. Once deployed and up and running, you used your local workstation's browser to test out the application. You later confirmed that your activity within the application generated data which was captured and recorded successfully within the MongoDB ReplicaSet back end within the cluster.
+#   V o t i n g - A p p - w i t h - K u b e r n e t e s  
+ 
